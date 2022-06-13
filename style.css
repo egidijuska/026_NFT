@@ -110,6 +110,11 @@ body {
   margin: 0;
   font-weight: bold;
 }
+.mainTextSecondSection{
+  font-size: 60px;
+  margin: 0;
+  font-weight: bold;
+}
 
 .bodyText {
   font-size: 15px;
@@ -182,6 +187,12 @@ body {
 .company {
   margin: 1rem;
   height: 35px;
+}
+.secondSection {
+  display: flex;
+  border-top:solid 2px #EEEEEE;
+  border-bottom: solid 2px #EEEEEE;
+  align-items: flex-end;
 }
 
 @media (max-width: 767px) {
