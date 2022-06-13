@@ -286,6 +286,72 @@ body {
 .parent {
   margin-right: 2rem;
 }
+.gallery {
+  margin: 3rem 0;
+  display: flex;
+  flex-flow: row;
+}
+.firstBox {
+  display: block;
+  background-color: #999999;
+  border-radius: 16px;
+}
+/* galerija*/
+.scroll {
+  display: flex;
+  width: 100%;
+}
+.nft {
+  margin: 2rem 1.5rem 3rem 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 45px;
+}
+.nft-img {
+  width: 100%;
+}
+.purchase-info {
+  display: flex;
+  padding: 1rem;
+  background-color: #eeeeee;
+  border-radius: 0px 0px 10px 10px;
+  justify-content: space-between;
+}
+.prch-info-left h6 {
+  color: #ff8139;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+.prch-info-left h5,
+.price h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+.prch-info-left p,
+.prch-info-right p {
+  color: #777777;
+  font-size: 0.8rem;
+}
+.prch-right-top {
+  text-transform: uppercase;
+  color: #777777;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+.price {
+  display: flex;
+}
+.price h5 {
+  margin-left: 0.4rem;
+}
+.prch-info-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+/* iki čia galerija */
 
 @media (max-width: 767px) {
   .menu-button-container {
@@ -337,5 +403,8 @@ body {
   }
   .copyright2 {
     display: none;
+  }
+  .mainTextSecondSection {
+    font-size: 47px;
   }
 }
