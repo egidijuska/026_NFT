@@ -302,32 +302,31 @@ body {
   width: 100%;
 }
 .nft {
-  margin: 2rem 1.5rem 3rem 0;
+  margin: 2rem 2rem 3rem 0;
   display: flex;
   flex-direction: column;
-  border-radius: 45px;
 }
 .nft-img {
-  width: 100%;
+  width: 225px;
 }
 .purchase-info {
   display: flex;
   padding: 1rem;
   background-color: #eeeeee;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 16px 16px;
   justify-content: space-between;
 }
 .prch-info-left h6 {
   color: #ff8139;
   text-transform: uppercase;
   font-size: 0.6rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 .prch-info-left h5,
 .price h5 {
   font-size: 1rem;
-  font-weight: 500;
-  margin: 0.5rem 0;
+  font-weight: bold;
+  margin: 0.1rem 0;
 }
 .prch-info-left p,
 .prch-info-right p {
@@ -338,7 +337,7 @@ body {
   text-transform: uppercase;
   color: #777777;
   font-size: 0.6rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 .price {
   display: flex;
@@ -406,5 +405,11 @@ body {
   }
   .mainTextSecondSection {
     font-size: 47px;
+  }
+  .scroll {
+    overflow-x: scroll;
+  }
+  .nft-img {
+    width: 15rem;
   }
 }
