@@ -155,7 +155,6 @@ body {
   z-index: -1;
 }
 .btn:hover:after {
-  /* opacity: 1; */
   cursor: pointer;
 }
 .rainbowBackground {
@@ -185,45 +184,10 @@ body {
   height: 35px;
 }
 
-/* .nftList {
-  display: flex;
-  /* justify-content: space-between; */
-/* align-items: center; */
-/* flex-wrap: nowrap;
-} */
-
-/* .nft { */
-/* height: 220px; */
-/* width: 200px;
-  margin-right: 1rem;
-  margin-bottom: 0;
-} */
-*/
-
-/* .nftTable {
-    background-color: #eeeeee;
-    margin-top: 0;
-    width: 200px;
-    border-radius: 16px;
-} */
-/* .scrollMenu {
-  display: flex; */
-
-/* }
-.nftBox {
-    display: flex;
-    background-color: #eeeeee;
-    border-radius: 16px; */
-/* }
-
-.descript {
-  display: flex; */
-  /* flex-flow: wrap; */
-/* } */
-
 @media (max-width: 767px) {
   .menu-button-container {
-    display: flex;}
+    display: flex;
+  }
 
   .menu {
     position: absolute;
@@ -254,7 +218,6 @@ body {
     width: 15%;
     color: white;
   }
-  /* likę mobile size Media query reikalai*/
   .mainPage {
     min-width: 370px;
     padding: 1rem 2rem 2rem 2rem;
@@ -266,9 +229,4 @@ body {
   .btn {
     margin-bottom: 1rem;
   }
-.rainbowBackground {
-  /* Čia kažką reikia sugalvoti */
-  background-image: url("./assets/background.svg");
-  background-position-x: center;
 }
-/* Likę mobile size media quoery reikalau up */
